@@ -1,0 +1,81 @@
+body{
+	font-family: 'Montserrat Alternates', sans-serif;
+	background-color: #f5f0e3;;
+}
+h1{
+	font-size: 26px;
+}
+h2{
+	font-size: 24px;
+}
+h3{
+	font-size: 21px
+}
+.custom-h4{
+	font-size: 18px;
+}
+
+.custom-fira-font{
+    font-family: 'Fira Sans', sans-serif;
+}
+
+.custom-card{
+	width: 300px;
+}
+
+.primary-bg{
+	background-color: #f0134d;
+}
+.secondary-bg{
+	background-color: #ff6f5e;
+}
+.content-bg{
+	background-color: #ffffff;
+}
+.primary-text{
+	color: #f0134d;
+}
+.carousel-school{
+	width: 100%;
+	height: 100%px;
+}
+
+.link{
+	text-orientation: none;
+}
+
+.custom-link{
+	color: #f5f0e3;
+}
+
+.custom-btn{
+	background-color: #ffffff;
+}
+.custom-btn:hover{
+	background-color: #f5f0e3;
+}
+
+.custom-lead{
+	font-size: 18px;
+}
+
+.custom-form{
+	width: 500px;
+}
+
+.custom-input{
+	border: none;
+}
+
+@media only screen and (max-width: 768px){
+	[class*="carousel-school"]{
+		width: 100%;
+		height: 100%;
+	}
+	[class*="custom-form"]{
+		width: 100%;
+	}
+	[class*="custom-flag"]{
+		width: 100%;
+	}
+}
